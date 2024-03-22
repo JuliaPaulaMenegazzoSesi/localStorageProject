@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <a href="../Loja/">🌮</a>
     <h1>Carrinho</h1>
+    <div id="lista"></div>
+    <h3 id="total"></h3>
+    <button onclick="gerarDocumentoWord()">Realizar pedido</button>
+
+    <p id="pedido">
+        Pedido gerado com sucesso
+        <button id="sc" onclick="successClose()">❌</button>
+    </p>
 </body>
 </html>
